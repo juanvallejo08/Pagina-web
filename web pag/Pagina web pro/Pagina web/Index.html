@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descricion"
+      content=" Esta es la pagina we para loa compradores compulsivos"
+    />
+    <title>Mercado valknut</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="app.scss" /> -->
+    <link rel="shortcut icon" href="valknut.jpg" />
+    <script
+      src="https://kit.fontawesome.com/8c414cd845.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <img src="Imagenes/valknut.jpg" alt="" id="Logo" /> -->
+    <!-- En esta parte se genera el titulo de la pagina web -->
+    <section class="s1">
+      <id class="frase">
+        <h2>VALKNUT ENTERPRICE</h2>
+      </id>
+    </section>
+    <!-- <h1>Hola. !Supérate¡ te extrañamos</h1>  -->
+    <!-- <script src="script.js"> </script>    -->
+    <!-- <header><img src="Imagenes/valknut.jpg" alt="" /></header> -->
+    <header>
+      <!-- En esta parte del codico segestiona la barra de herramientas inicial -->
+      <input type="checkbox" id="BtnMenu" />
+      <label for="BtnMenu"><img src="Imagenes/valknut.jpg" alt="" /></label>
+      <nav class="menu">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li>
+            <a href="">Nosotros</a>
+            <ul>
+              <li><a href="quienessomos.html">¡Quienes somos?</a></li>
+              <li><a href="About.html/#legado">Nuestro Legado</a></li>
+              <li><a href="About.html/#equipo">Nuestro equipo</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Servicios.html">Soluciones</a>
+            <ul>
+              <li><a href="#">Para instituciones</a></li>
+              <li><a href="#">Para educadores</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Certificaciones</a>
+            <ul>
+              <li><a href="#">Ofimatica</a></li>
+              <li><a href="#">Tegnologia</a></li>
+              <li><a href="#">Educador</a></li>
+            </ul>
+          </li>
+          <li><a href="">Experiencias</a></li>
+          <li>
+            <a href="">Recursos</a>
+            <ul>
+              <li><a href="#">Webinar</a></li>
+              <li><a href="#">blog</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Formulario.html">Contactenos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- En esta parte del codigo se genra el carrucel de imagenes de la pantalla inicio -->
+    <div id="conteitemcarrusel">
+      <div class="itemcarrusel active" id="itemcarrusel-1">
+        <div class="targetacarrusel" id="tarjetacarrusel-1">
+          <img
+            src="Imagenes/cerrar-zapatillas-baloncesto_23-2150847380.avif"
+            alt="imagen 1 carrusel"
+          />
+        </div>
+        <div class="flechascarrusel">
+          <a href="#itemcarrusel-3">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+          </a>
+          <a href="#itemcarrusel-2">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="itemcarrusel" id="itemcarrusel-2">
+        <div class="targetacarrusel" id="tarjetacarrusel-2">
+          <img
+            src="Imagenes/ilustracion-contorno-vectorial-zapatos-deportivos_1409-4390.avif"
+            alt="imagen 2 carrusel"
+          />
+        </div>
+        <div class="flechascarrusel">
+          <a href="#itemcarrusel-1">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+          </a>
+          <a href="#itemcarrusel-3">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      <div class="itemcarrusel" id="itemcarrusel-3">
+        <div class="targetacarrusel" id="tarjetacarrusel-3">
+          <img
+            src="Imagenes/zapatilla-deporte-colores-pintando-pintura-aerosol-color-purpura_123827-23438.avif"
+            alt="imagen 3"
+          />
+        </div>
+        <div class="flechascarrusel">
+          <a href="#itemcarrusel-2">
+            <i class="fa-solid fa-circle-arrow-left"></i>
+          </a>
+          <a href="#itemcarrusel-1">
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="contepuntos">
+      <a href="#itemcarrusel-1">*</a>
+      <a href="#itemcarrusel-2">*</a>
+      <a href="#itemcarrusel-3">*</a>
+    </div>
+    <!-- ]eN ESTA PARTE DEL CODIGO SE GENERAN EL TITULO Y LAS IMAGENES CON COMENTARIO Y PRECIO DE LOS PRODUCTOS SUGERIDOS -->
+    <section class="container-related-products">
+      <h2>Productos sugeridos</h2>
+      <div class="card-list-products">
+        <div class="card">
+          <div class="car-img">
+            <img src="Imagenes/zapatilla.jpg" alt="Producto-1" />
+          </div>
+          <div class="info-card">
+            <div class="text-product">
+              <h3>Adidas-roshe run</h3>
+              <p class="category">Fotware, sneakers</p>
+            </div>
+            <div class="presio">$85.00</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="Imagenes/zapatillas 2.jpg" alt="Producto-2" />
+          </div>
+          <div class="info-card">
+            <div class="text-product">
+              <h3>Adidas-roshe run</h3>
+              <p class="category">Fotware, sneakers</p>
+            </div>
+            <div class="presio">$85.00</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="Imagenes/zapatillas 3.jpg" alt="Producto-3" />
+          </div>
+          <div class="info-card">
+            <div class="text-product">
+              <h3>Adidas-roshe run</h3>
+              <p class="category">Fotware, sneakers</p>
+            </div>
+            <div class="presio">$85.00</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="Imagenes/zapatillas 4.jpg" alt="Producto-1" />
+          </div>
+          <div class="info-card">
+            <div class="text-product">
+              <h3>Adidas-roshe run</h3>
+              <p class="category">Fotware, sneakers</p>
+            </div>
+            <div class="presio">$85.00</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/eYQ2TbL_Sgg?si=pKHpfVqiujvt28Am"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <p>En esta seccion posdra ver videos sobre nuestra</p>
+    </div>
+
+    <!-- <section id="sw">
+      <img src="Imagenes/valknut2.jpg" height="200px" width="200px" id="team" />
+      <p></p>
+    </section> -->
+
+    <!-- <section id="sw" class="carousel">
+      <div class="slide">
+        <img src="Imagenes/valknut2.jpg" alt="" height="200px" width="200px" />
+      </div>
+      <div class="slide">
+        <img src="Imagenes/valknut.jpg" alt="" height="200px" width="200px" />
+      </div>
+      <!-Agrega más imágenes aquí si lo deseas -->
+    <!-- </section> -->
+
+    <!-- <script src="script.js"></script> -->
+    <!-- <nav>
+      <a href="#">Inicio</a>
+      <a href="quienessomos.html">Quienes somos</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="">Contactos</a>
+    </nav>
+    <article>
+      <h1>Bienvnidos a valknut</h1>
+      <p>
+        Es un gusto poder afrecerles nuestros productos Entere los cuales estan
+      </p>
+    </article>
+    <section>
+      <h2>Lista de Productos</h2>
+    </section>
+    <section>
+      <h3>1.Camaras de seguridad</h3>
+      <h3>2.sistemas de seguridad con alarma</h3>
+      <h3>3.sistemas solares</h3>
+      <h3>4. Baterias</h3>
+    </section> -->
+    <!-- eN ESTA PARTE DEL CODIGO SE GENERA LA PARTE BAJA DE LA PAGINA WEB LLAMDA FOOTER DONDE ESTA LA INFORMACION NECESARIA DE LA EMPRESA -->
+    <footer class="pie">
+      <div class="header">
+        <div class="Logo">
+          <div class="logo-img">
+            <img src="Imagenes/valknut.jpg" alt="" />
+            <p class="logotipo">Informatica estudios</p>
+          </div>
+        </div>
+        <div class="redes">
+          <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+          <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+          <span class="in"><i class="fa-brands fa-instagram"></i></span>
+          <span class="li"><i class="fa-brands fa-linkedin"></i></span>
+          <span class="you"><i class="fa-brands fa-youtube"></i></span>
+        </div>
+      </div>
+      <hr />
+      <div class="seccion">
+        <div>
+          <h2>Company</h2>
+          <a href="#">Home</a>
+          <a href="#">Contac us</a>
+          <a href="#">about us</a>
+          <a href="#">Get started</a>
+        </div>
+        <div>
+          <h2>Services</h2>
+          <a href="#">App desings</a>
+          <a href="#">web desings</a>
+          <a href="#">Logo desings</a>
+          <a href="#">Bonner desing</a>
+        </div>
+        <div>
+          <h2>Acount</h2>
+          <a href="#">Profile</a>
+          <a href="#">my acount</a>
+          <a href="#">preferences</a>
+          <a href="#">purchouse</a>
+        </div>
+        <div>
+          <h2>Courses</h2>
+          <a href="#">html & css</a>
+          <a href="#">java script</a>
+          <a href="#">photo graphy</a>
+          <a href="#">photo shop</a>
+        </div>
+        <div>
+          <h2>suscribete</h2>
+          <form action="">
+            <input type="text" placeholder="Enter your email" />
+            <button type="submit">suscribete</button>
+          </form>
+        </div>
+      </div>
+      <div class="derechos">
+        <p>Copyright@2022Informatica Studios. all right reserved</p>
+        <p>privacy policy terms and condition</p>
+      </div>
+    </footer>
+  </body>
+</html>

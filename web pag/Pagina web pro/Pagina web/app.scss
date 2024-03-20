@@ -1,0 +1,39 @@
+.carrousel{
+  width:90%;
+  max-width: 120cm;
+  padding: 2cm;
+  @include neo( 1 , 1cm , 1cm)
+}
+.carrousel .grande{
+
+  width:100%;
+  background-color: orange;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  @include neo( 1 , 1cm , 1cm)
+
+}
+.carrousel .img{
+  width: calc( 100% / 2 );
+  background-color: lime;
+}
+.carrousel .puntos{
+  width: 100%;
+  background-color: red;
+  padding:1cm;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.carrousel .punto{
+  width: 1cm;
+  height: 1cm;
+  background-color: blue;
+  margin: 1cm;
+}
+  
