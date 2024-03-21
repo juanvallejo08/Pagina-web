@@ -1,0 +1,414 @@
+/* @import 'reset/variables''rest/mixins''reset/reset''rest/keyframes' */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-size: 100%;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background: #1e137a;
+  margin: auto;
+}
+
+.menu>li {
+  float: right;
+  z-index: 9999;
+  
+}
+
+.menu li a {
+  background: #1e137a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  z-index: 9999;
+  height: 50px;
+  
+}
+
+.menu li a:hover {
+  background-color: #c26f19;
+  z-index: 9999;
+}
+
+#BtnMenu {
+  display: none;
+  z-index: 9999;
+}
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #3d69b1;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  min-height: 140px;
+  z-index: 9999;
+}
+
+.menu li:hover>ul {
+  display: block;
+}
+.login-buttons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px; /* Agrega un margen derecho */
+  
+  
+}
+.login-buttons button {
+  margin-left: 15px;
+  margin-left: 10px; /* Espaciado entre los botones */
+  font-size: 15px; /* Tamaño de la fuente */
+  padding: 10px 10px; /* Padding alrededor del texto */
+  
+}
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+}
+.s1{
+  background: #1e137a;
+}
+.frase{
+  padding: 20px 100px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+#conteitemcarrusel {
+
+  height: 600px;
+  overflow: hidden;
+  z-index: 8888;
+
+
+}
+
+.itemcarrusel {
+
+  height: 100%;
+  position: relative;
+  
+
+}
+
+.targetacarrusel {
+
+  height: 100%;
+}
+
+.flechascarrusel {
+
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+
+#tarjetacarrusel-1 {
+  background-color: rgb(172, 108, 231);
+
+}
+
+#tarjetacarrusel-2 {
+  background-color: rgb(108, 196, 231);
+
+}
+
+#tarjetacarrusel-3 {
+  background-color: rgb(231, 108, 225);
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+#contepuntos {
+  /* background-color: rgb(161, 159, 159); */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#contepuntos>a {
+  font-size: 1.5em;
+  color: #080303;
+  
+}
+
+img {
+
+  width: 100%;
+  height: 100%;
+}
+
+.container-related-products h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-list-products {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  cursor: pointer;
+  padding: 20%;
+}
+
+.card-img {
+  background: transparent;
+  margin-bottom: 15px;
+  
+
+
+}
+
+.car-img img {
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.info-card {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.text-product {
+  color: #252525;
+  font-weight: 300;
+  line-height: 1.4;
+
+}
+
+.text-product h3 {
+
+  color: inherit;
+  font-weight: inherit;
+  font-size: 15px;
+
+}
+
+.text-product h3 :hover {
+  color: #1bbeb4
+}
+
+.text-product p {
+  color: #666;
+  font-size: 13px;
+
+
+}
+
+.text-product p:hover {
+
+  color: #1bbeb4
+}
+
+footer {
+  padding: 30px;
+  background-color: #eeee;
+  margin-top: 50px;
+  color: #222;
+}
+
+.pie{
+  background: #140b5c;
+}
+.logo-img{
+  width: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+span{
+  font-size: 23px;
+}
+.fb{
+  background: rgb(0, 60, 255) ;
+  padding:8px;
+  border-radius: 50px;
+  color: white;
+}
+.tw{
+  background: rgb(0, 174, 255) ;
+  padding:8px;
+  border-radius: 50px;
+  color: white;
+}
+.in{
+  background: rgb(212, 0, 255) ;
+  padding:8px;
+  border-radius: 50px;
+  color: white;
+}
+.li{
+  background: rgb(0, 110, 255) ;
+  padding:8px;
+  border-radius: 50px;
+  color: white;
+}
+.you{
+  background: rgb(255, 0, 0) ;
+  padding:8px;
+  border-radius: 40px;
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.logotipo{
+  font-size: 18px;
+  color: white;
+
+}
+.seccion{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.seccion div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 10px 0;
+}
+div a{
+  color: rgba(255, 255, 255, 0.678);
+  text-decoration: none;
+  padding: 5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input{
+  background: none;
+  border: solid 2px white;
+  padding: 10px 20px;
+}
+button{
+  padding: 10px 20px;
+  background: white;
+  color: blueviolet;
+  font-size:18px ;
+}
+.derechos{
+  display: flex;
+  justify-content:space-between ;
+  padding: 20px;
+  background: #09042e;
+  color: rgb(255, 255, 255);
+
+}
+
+
+.videos-container {
+  display: flex; /* Utiliza flexbox para colocar los videos en línea */
+  justify-content: space-between; /* Distribuye el espacio disponible entre los videos */
+}
+
+.video {
+  flex: 1;
+  max-width: calc(50% - 20px); /* Se resta el espacio entre los videos */
+  margin: 0 10px; /* Espacio entre los videos */
+  border: 2px solid #080303; /* Borde */
+  border-radius: 20px; /* Redondear los bordes */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  height: 300px; /* Altura del contenedor de video */
+}
+
+.video iframe {
+  width: 100%; /* Para ocupar todo el espacio disponible dentro del contenedor de video */
+  height: auto; /* Altura ajustada automáticamente */
+  border-radius: 18px; /* Redondear los bordes del video */
+  height: 300px; /* Altura del contenedor de video */
+}
+
+
+.noticias {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; /* Alinear las noticias en una columna */
+  align-items: center; /* Centrar horizontalmente */
+}
+.noticias h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.noticia {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%; /* Ajustar el ancho de las noticias si es necesario */
+  
+}
+.noticia img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.noticia h3 {
+  margin-top: 0;
+}
+.noticia p {
+  margin-bottom: 0;
+}
