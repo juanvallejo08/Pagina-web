@@ -14,7 +14,7 @@ body {
 
 header {
   width: 100%;
-  background: #1e137a;
+  background: #5d50c0;
   margin: auto;
 }
 
@@ -25,7 +25,7 @@ header {
 }
 
 .menu li a {
-  background: #1e137a;
+  background: #5d50c0;
   color: #fff;
   text-decoration: none;
   padding: 10px 15px;
@@ -94,13 +94,15 @@ header label:hover {
   z-index: 9999;
 }
 .s1{
-  background: #1e137a;
+  background: #5d50c0;
 }
 .frase{
   padding: 20px 100px;
   color: white;
   align-items: center;
   text-align: center;
+  
+  
   
 }
 
@@ -256,7 +258,7 @@ footer {
 }
 
 .pie{
-  background: #140b5c;
+  background: #5d50c0;
 }
 .logo-img{
   width: 80px;
@@ -346,7 +348,7 @@ button{
   display: flex;
   justify-content:space-between ;
   padding: 20px;
-  background: #09042e;
+  background: #1d126d;
   color: rgb(255, 255, 255);
 
 }
@@ -385,6 +387,7 @@ button{
   justify-content: space-evenly;
   flex-direction: column; /* Alinear las noticias en una columna */
   align-items: center; /* Centrar horizontalmente */
+  
 }
 .noticias h2 {
   margin-bottom: 10px;
@@ -398,13 +401,17 @@ button{
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 80%; /* Ajustar el ancho de las noticias si es necesario */
+  
+  
   
 }
 .noticia img {
   max-width: 100%;
-  height: auto;
+  width: 750px;
+  height: 400px;
+  object-fit: cover;
   margin-bottom: 10px;
+
 }
 .noticia h3 {
   margin-top: 0;
