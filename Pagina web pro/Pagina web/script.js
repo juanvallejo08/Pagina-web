@@ -31,3 +31,14 @@
 // // Avanzar y retroceder con botones
 // document.getElementById("nextBtn").addEventListener("click", nextSlide);
 // document.getElementById("prevBtn").addEventListener("click", prevSlide);
+
+document.addEventListener('DOMContentLoaded', function() {
+    const togglePassword = document.getElementById('togglePassword');
+    const contrasenaInput = document.getElementById('contrasena');
+
+    togglePassword.addEventListener('click', function() {
+        const tipo = contrasenaInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        contrasenaInput.setAttribute('type', tipo);
+        this.textContent = tipo === 'password' ? 'Mostrar' : 'Ocultar';
+    });
+});
