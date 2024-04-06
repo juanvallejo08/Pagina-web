@@ -14,7 +14,7 @@ body {
 
 header {
   width: 100%;
-  background: #5d50c0;
+  background: #74da8a;
   margin: auto;
 }
 
@@ -25,8 +25,8 @@ header {
 }
 
 .menu li a {
-  background: #5d50c0;
-  color: #fff;
+  background: #74da8a;
+  color: #000000;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
@@ -94,26 +94,30 @@ header label:hover {
   z-index: 9999;
 }
 .s1{
-  background: #5d50c0;
+  background: #74da8a;
 }
 .frase{
   padding: 20px 100px;
-  color: white;
+  color: rgb(0, 0, 0);
   align-items: center;
   text-align: center;
   
   
   
 }
-
+#marcocarrusel {
+  border: 2px solid #0a0808; /* Grosor y estilo del borde */
+  padding: 20px; /* Espacio alrededor del carrusel */
+  margin-bottom: 20px; /* Espacio debajo del carrusel */
+  overflow: hidden;
+}
 
 #conteitemcarrusel {
 
   height: 600px;
   overflow: hidden;
   z-index: 8888;
-
-
+  display: block;
 }
 
 .itemcarrusel {
@@ -127,6 +131,7 @@ header label:hover {
 .targetacarrusel {
 
   height: 100%;
+ 
 }
 
 .flechascarrusel {
@@ -215,6 +220,7 @@ img {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   border: 3px solid #0e0606;
   border-radius: 10px;
+
 }
 
 .info-card {
@@ -264,7 +270,7 @@ footer {
 }
 
 .pie{
-  background: #5d50c0;
+  background: #74da8a;
 }
 .logo-img{
   width: 80px;
@@ -313,7 +319,7 @@ span{
 }
 .logotipo{
   font-size: 18px;
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 .seccion{
@@ -326,11 +332,11 @@ span{
   flex-direction: column;
 }
 div h2{
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 0;
 }
 div a{
-  color: rgba(255, 255, 255, 0.678);
+  color: rgba(0, 0, 0, 0.678);
   text-decoration: none;
   padding: 5px;
 }
@@ -347,15 +353,15 @@ input{
 button{
   padding: 10px 20px;
   background: white;
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   font-size:18px ;
 }
 .derechos{
   display: flex;
   justify-content:space-between ;
   padding: 20px;
-  background: #1d126d;
-  color: rgb(255, 255, 255);
+  background: #3ec05a;
+  color: rgb(0, 0, 0);
 
 }
 
