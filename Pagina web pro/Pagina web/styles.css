@@ -10,11 +10,14 @@ body {
   background-size: 100%;
   font-family: sans-serif;
   margin: 0 auto;
+  height:665px;
+  background-image: url("Imagenes/pradera.avif");
+  background-size: 100rem;
 }
 
 header {
   width: 100%;
-  background: #74da8a;
+  background: #4CAF50;
   margin: auto;
 }
 
@@ -25,24 +28,29 @@ header {
 }
 
 .menu li a {
-  background: #74da8a;
+  background: #4CAF50;
   color: #000000;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
   z-index: 9999;
   height: 50px;
+  border-radius: 4px;
   
 }
 
 .menu li a:hover {
   background-color: #c26f19;
   z-index: 9999;
+  border-radius: 4px;
+  
 }
 
 #BtnMenu {
   display: none;
   z-index: 9999;
+  
+  
 }
 
 header label {
@@ -63,6 +71,8 @@ header label:hover {
   position: absolute;
   min-height: 140px;
   z-index: 9999;
+  
+  
 }
 
 .menu li:hover>ul {
@@ -83,6 +93,7 @@ header label:hover {
   margin-left: 10px; /* Espaciado entre los botones */
   font-size: 15px; /* Tamaño de la fuente */
   padding: 10px 10px; /* Padding alrededor del texto */
+  border-radius: 10px;
   
 }
 .menu ul {
@@ -92,9 +103,10 @@ header label:hover {
   display: flex;
   flex-direction: row;
   z-index: 9999;
+   border-radius: 10px;
 }
 .s1{
-  background: #74da8a;
+  background: #4CAF50;
 }
 .frase{
   padding: 20px 100px;
@@ -105,19 +117,21 @@ header label:hover {
   
   
 }
-#marcocarrusel {
-  border: 2px solid #0a0808; /* Grosor y estilo del borde */
-  padding: 20px; /* Espacio alrededor del carrusel */
-  margin-bottom: 20px; /* Espacio debajo del carrusel */
+/* #marcocarrusel {
+  border: 1px solid #000000;  Grosor y estilo del borde  
+  padding: 1px;  Espacio alrededor del carrusel
+  margin-bottom: 1px;  Espacio debajo del carrusel
   overflow: hidden;
-}
+  background: #080808;  Color de fondo 
+  
+  
+} */
 
-#conteitemcarrusel {
+/* #conteitemcarrusel {
 
   height: 600px;
   overflow: hidden;
   z-index: 8888;
-  display: block;
 }
 
 .itemcarrusel {
@@ -161,15 +175,15 @@ header label:hover {
 #tarjetacarrusel-3 {
   background-color: rgb(231, 108, 225);
 
-}
+} */
 
 
-a {
+/* a {
   text-decoration: none;
 }
 
 #contepuntos {
-  /* background-color: rgb(161, 159, 159); */
+   background-color: rgb(161, 159, 159); 
   display: flex;
   justify-content: space-around;
 
@@ -179,6 +193,16 @@ a {
   font-size: 1.5em;
   color: #080303;
   
+} */
+.prosuge{
+  padding: 20px 100px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  font-size: 20px; /* Ajusta el tamaño de la letra según sea necesario */
+  background-color: #4CAF50; /* Color de fondo del contenedor */
+  width: 100%; /* Ancho del contenedor */
+  height: 90px; /* Alto del contenedor */
 }
 
 img {
@@ -193,18 +217,23 @@ img {
   margin-bottom: 30px;
   
 }
+.titulo2servicios{
+  background: #e0e4e0;
 
+}
 .card-list-products {
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   
+  
 }
 
 .card {
   cursor: pointer;
   padding: 20%;
+  
 }
 
 .card-img {
@@ -218,7 +247,7 @@ img {
   height: 400px;
   object-fit: cover;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  border: 3px solid #0e0606;
+  border: 0px solid #0e0606;
   border-radius: 10px;
 
 }
@@ -228,6 +257,7 @@ img {
   justify-content: space-between;
   border: 1px solid #0e0606;
   border-radius: 10px;
+  background: #e0e4e0;
 
 }
 
@@ -256,6 +286,16 @@ img {
 
 
 }
+.notem{
+  padding: 10px 100px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  font-size: 20px; /* Ajusta el tamaño de la letra según sea necesario */
+  background-color: #4CAF50; /* Color de fondo del contenedor */
+  width: 100%; /* Ancho del contenedor */
+  height: 90px; /* Alto del contenedor */
+}
 
 .text-product p:hover {
 
@@ -270,7 +310,7 @@ footer {
 }
 
 .pie{
-  background: #74da8a;
+  background: #4CAF50; /* Color de fondo */
 }
 .logo-img{
   width: 80px;
@@ -360,7 +400,7 @@ button{
   display: flex;
   justify-content:space-between ;
   padding: 20px;
-  background: #3ec05a;
+  background: #44a748; /* Color de fondo */
   color: rgb(0, 0, 0);
 
 }
@@ -375,7 +415,7 @@ button{
   flex: 1;
   max-width: calc(50% - 20px); /* Se resta el espacio entre los videos */
   margin: 0 10px; /* Espacio entre los videos */
-  border: 2px solid #080303; /* Borde */
+  border: px solid #080303; /* Borde */
   border-radius: 20px; /* Redondear los bordes */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
   height: 300px; /* Altura del contenedor de video */
@@ -391,10 +431,10 @@ button{
 
 .noticias {
  
-  background-color: #080808;
+  /* background-color: #080808; */
   padding: 20px;
   margin-top: 20px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
@@ -442,6 +482,7 @@ button{
   border-radius: 5px;
   padding: 30px;
   
+  
 
 }
 .conteinsepadre{
@@ -455,9 +496,67 @@ button{
   padding: 100px 700px;
 
 }
+
+.conteres{
+  /* text-align: center; */
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 10px;
+   border: 2px solid #000000; 
+  border-radius: 5px;
+  padding: 50px 500px;
+  
+
+}
 .form-group input {
   width: 100%;
   padding: 10px;
   border: 1px solid #494646;
   border-radius: 5px;
+}
+.quienessomos{
+  text-align: center;
+  background: #e0e4e0;
+}
+
+.mision{
+  text-align: center;
+  width: calc(50% - 20px); /* Ajusta el ancho para ocupar la mitad del contenedor */
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-right: 20px; /* Agrega un margen derecho para separar del otro recuadro */
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 60px;
+  background-color: #dfdfdf;
+
+}
+.vision{
+  text-align: center;
+  width: calc(50% - 20px); /* Ajusta el ancho para ocupar la mitad del contenedor */
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 60px;
+  background-color: #dfdfdf;
+}
+.contemv{
+
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  /* border: 2px solid #000000; */
+  border-radius: 5px;
+  padding: 30px;
+  display: flex; /* Utiliza flexbox para colocar los videos en línea */
+  justify-content: center; /* Distribuye el espacio disponible entre los videos */
+ 
+  flex-wrap: wrap;
+  align-items: center;
 }
